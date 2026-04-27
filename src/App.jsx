@@ -25,7 +25,7 @@ export default function App() {
   return (
     <div className="page">
       <header className="header">
-        <h1>Task Manager</h1>
+        <h1>Task Manager Blue-Green deployment test</h1>
       </header>
 
       <main className="card">
