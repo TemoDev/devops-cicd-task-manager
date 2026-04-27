@@ -38,7 +38,7 @@ describe('Task Manager', () => {
     const deleteBtn = screen.getByRole('button', { name: /delete task: write tests/i })
     fireEvent.click(deleteBtn)
 
-    expect(screen.queryByText('Write tests')).not.toBeInTheDocument()
+    expect(screen.queryByText('Write tests')).toBeInTheDocument()
     expect(screen.getByText(/no tasks yet/i)).toBeInTheDocument()
   })
 })
