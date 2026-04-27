@@ -45,7 +45,7 @@ export default function App() {
         </div>
 
         {tasks.length === 0 ? (
-          <p className="empty-state">No tasks yet. Add one above!</p>
+          <p className="empty-state">No tasks yet, create new one above!</p>
         ) : (
           <ul className="task-list" aria-label="Task list">
             {tasks.map(task => (
